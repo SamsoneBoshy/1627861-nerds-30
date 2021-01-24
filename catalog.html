@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог — Нёрдс</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="https://via.placeholder.com/150x100" alt="">
+            </a>
+            <ul>
+                <li><a href="#">Студия</a></li>
+                <li><a href="#">Клиенты</a></li>
+                <li><a href="#">Магазин</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <a href="#">Корзина</a>
+        </nav>
+        <h2>Магазин готовых шаблонов</h2>
+    </header>
+    <main>
+        <section>
+            <h2>Фильтры товаров</h2>
+            <form method="get" action="https://echo.htmlacademy.ru">
+                <fieldset>
+                    <legend>Стоимость:</legend>
+                    <div>
+                        <input type="range" min="0" max="15000" value="50"><br>
+                        <label>От <input type="text" name="min-interval" value="0"></label>
+                        <label>До <input type="text" name="max-interval" value="15000"></label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Сетка:</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" name="product-group" value="Адаптивная" id="filter-Адаптивная">
+                            <label for="filter-Адаптивная">Адаптивная</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="product-group" value="Фиксированная" id="filter-Фиксированная"
+                                checked>
+                            <label for="filter-Фиксированная">Фиксированная</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="product-group" value="Резиновая" id="filter-Резиновая">
+                            <label for="filter-Резиновая">Резиновая</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Особенности:</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="Слайдер" id="filter-Слайдер" checked>
+                            <label for="filter-Слайдер">Слайдер</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Блок премуществ" id="filter-Блок-премуществ">
+                            <label for="filter-Блок-премуществ">Блок премуществ</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Новости" id="filter-Новости" checked>
+                            <label for="filter-Новости">Новости</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Галерея" id="filter-Галерея">
+                            <label for="filter-Галерея">Галерея</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Корзина" id="Корзина">
+                            <label for="Корзина">Корзина</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button type="submit">Показать</button>
+            </form>
+        </section>
+        <h2>Список сайтов</h2>
+        <p>Сортировать:</p>
+        <ul>
+            <li>По цене</li>
+            <li>По типу</li>
+            <li>По названию</li>
+        </ul>
+        <button type="button">Up</button>
+        <button type="button">Down</button>
+        <ul>
+            <li>
+                <a href="product.html">
+                    <h3>sedona</h3>
+                    <p>
+                        <img src="https://via.placeholder.com/150x100" alt="Картинка сайта Седона">
+                    </p>
+                </a>
+                <p>
+                    9 900 ₽
+                    <button type="button">Купить</button>
+                </p>
+            </li>
+            <li>
+                <a href="product.html">
+                    <h3>pink</h3>
+                    <p>
+                        <img src="https://via.placeholder.com/150x100" alt="Картинка сайта Пинк">
+                    </p>
+                </a>
+                <p>
+                    10 900 ₽
+                    <button type="button">Купить</button>
+                </p>
+            </li>
+            <li>
+                <a href="product.html">
+                    <h3>Borodinski</h3>
+                    <p>
+                        <img src="https://via.placeholder.com/150x100" alt="Картинка сайта Бородинский">
+                    </p>
+                </a>
+                <p>
+                    11 900 ₽
+                    <button type="button">Купить</button>
+                </p>
+            </li>
+            <li>
+                <a href="product.html">
+                    <h3>Mishka</h3>
+                    <p>
+                        <img src="https://via.placeholder.com/150x100" alt="Картинка сайта Мишка">
+                    </p>
+                </a>
+                <p>
+                    13 900 ₽
+                    <button type="button">Купить</button>
+                </p>
+            </li>
+            <li>
+                <a href="product.html">
+                    <h3>A+</h3>
+                    <p>
+                        <img src="https://via.placeholder.com/150x100" alt="Картинка сайта A+">
+                    </p>
+                </a>
+                <p>
+                    15 900 ₽
+                    <button type="button">Купить</button>
+                </p>
+            </li>
+            <li>
+                <a href="product.html">
+                    <h3>Кваст</h3>
+                    <p>
+                        <img src="https://via.placeholder.com/150x100" alt="Картинка сайта Кваст">
+                    </p>
+                </a>
+                <p>
+                    85 900 ₽
+                    <button type="button">Купить</button>
+                </p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a>1</a>
+            </li>
+            <li>
+                <a href="#">2</a>
+            </li>
+            <li>
+                <a href="#">3</a>
+            </li>
+            <li>
+                <a href="#">Следующая</a>
+            </li>
+        </ul>
+    </main>
+    <footer>
+      <section>
+        <div>
+          <h3>NЁRDS DESIGN STUDIO</h3>
+          <p>191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8</p>
+          <p>тел. +7 (812) 275-75-75</p>
+          <img src="https://via.placeholder.com/150x100" alt="Карта с отметкой">
+          <a href="#">напишите нам</a>
+        </div>
+      </section>
+      <h3>Давайте дружить, это выгодно!</h3>
+      <p>Скидка 10% для друзей из социальных сетей.</p>
+      <address>
+        <a href="https://vk.com/htmlacademy"></a>
+        <img src="https://via.placeholder.com/150x100" alt="Картинка Вк">
+        <a href="https://www.facebook.com/HTML-Academy-795303870667279/"></a>
+        <img src="https://via.placeholder.com/150x100" alt="Картинка Фб">
+        <a href="https://www.instagram.com/htmlacademy/?hl=ru"></a>
+        <img src="https://via.placeholder.com/150x100" alt="Картинка Инст">
+      </address>
+    </footer>
+  </body>
+  
+  </html>
